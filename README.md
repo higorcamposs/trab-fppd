@@ -1,12 +1,9 @@
-# trab-fppd
-
-
 # Configurando em seu ambiente
-## :
-#### docker pull higorcamposs/trab-fppd-storm:latest
-#### docker pull higorcamposs/trab-fppd-zookeeper:latest
+Execute: docker pull higorcamposs/trab-fppd-storm:latest
+Execute: docker pull higorcamposs/trab-fppd-zookeeper:latest
 
 Após isso, você irá criar o arquivo docker-compose.yml
+
 #### docker-compose up -d
 
 ## docker-compose.yml
