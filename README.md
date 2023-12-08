@@ -42,4 +42,8 @@ SEU_IP:8080
 
 # Analise do Storm UI
 
-### Verifique todos os summarys
+### Verifique todos os summarys, em especial: 
+- Supervisor Summary
+- Topology Summary
+
+
