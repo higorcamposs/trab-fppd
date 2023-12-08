@@ -3,7 +3,7 @@ Execute os comandos abaixo:
 Após isso, você irá criar o arquivo docker-compose.yml
 ```bash
 docker pull higorcamposs/trab-fppd-storm:latest
-Execute: docker pull higorcamposs/trab-fppd-zookeeper:latest
+docker pull higorcamposs/trab-fppd-zookeeper:latest
 
 ```
 #### docker-compose up -d
