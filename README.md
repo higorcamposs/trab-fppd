@@ -2,8 +2,10 @@
 
 [Vídeo abordando um pouco sobre o Apache Storm](https://1drv.ms/v/s!Au3PJaitvDlYhe4qNx3JW6AMfl0r-w?e=3fyvMg)
 
+## Objetivo: Validar a arquitetura funcional do Apache Storm + Topologia através do Storm UI
 
-## OBS: Necessário ter o docker para seguir com os proximos passos
+
+### OBS: Necessário ter o docker para seguir com os proximos passos
 ```bash
 apt install docker
 apt install docker.io
