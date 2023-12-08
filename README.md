@@ -40,3 +40,6 @@ ip a
 SEU_IP:8080
 ```
 
+# Analise do Storm UI
+
+### Verifique todos os summarys
