@@ -67,7 +67,7 @@ docker exec nimbus mkdir -p /apache-storm-2.5.0/examples/trab-fppd
 ```bash
 docker cp TopologyMain.java nimbus:/apache-storm-2.5.0/examples/trab-fppd
 docker cp Spout.java nimbus:/apache-storm-2.5.0/examples/trab-fppd
-docker cp Boult.java nimbus:/apache-storm-2.5.0/examples/trab-fppd
+docker cp Bolt.java nimbus:/apache-storm-2.5.0/examples/trab-fppd
 ```
 
 ### Acessando o Nimbus:
