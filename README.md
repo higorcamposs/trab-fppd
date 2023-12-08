@@ -98,3 +98,15 @@ storm jar myTopology.jar TopologyMain
 ```bash
 ... [main] INFO  o.a.s.StormSubmitter - Finished submitting topology: Topology
 ```
+- Se tiver, está tudo correto! Caso contrário, verifique novamente os passos ou entre em contato para analisarmos o caso.
+
+
+# Analise do Storm UI
+### Verifique todos os summarys, em especial: 
+- Supervisor Summary
+- Topology Summary
+
+#### Agora tem uma topologia e um dos slots ocupados. 
+#### Para ver a topologia, clique: Topology Visualization >> Show Visualization
+
+
