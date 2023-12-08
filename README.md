@@ -56,9 +56,9 @@ SEU_IP:8080
 
 ### Criando os códigos em java, que estão aqui no repo:
 ```bash
-vim TopologyMain.java
-vim Spout.java
-vim Bolt.java
+vi TopologyMain.java
+vi Spout.java
+vi Bolt.java
 ```
 Crie fora do docker!
 
