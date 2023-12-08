@@ -35,7 +35,7 @@ docker ps
 ip a
 ```
 
-### Acesso o Storm UI
+### Acesse o Storm UI
 ```bash
 SEU_IP:8080
 ```
