@@ -1,7 +1,7 @@
 # Testando Storm UI do Apache Storm
 
 - Objetivo: Validar a arquitetura funcional do Apache Storm + Topologia através do Storm UI
-[Vídeo abordando um pouco sobre o Apache Storm](https://1drv.ms/v/s!Au3PJaitvDlYhe4qNx3JW6AMfl0r-w?e=3fyvMg)
+- [Vídeo abordando um pouco sobre o Apache Storm](https://1drv.ms/v/s!Au3PJaitvDlYhe4qNx3JW6AMfl0r-w?e=3fyvMg)
 
 
 ### OBS: Necessário ter o docker para seguir com os proximos passos
