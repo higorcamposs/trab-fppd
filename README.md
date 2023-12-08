@@ -23,3 +23,13 @@ docker-compose up
 docker ps
 ```
 
+### Verifique seu ip
+```bash
+ip a
+```
+
+### Acesso o Storm UI
+```bash
+SEU_IP:8080
+```
+
