@@ -46,5 +46,31 @@ SEU_IP:8080
 - Supervisor Summary
 - Topology Summary
 
-### Não há topologia e todos os slots dos supervisores estão disponiveis, então ainda não está em execução!
+#### Não há topologia e todos os slots dos supervisores estão disponiveis!
+
+# Criando tarefas no Storm Cluster
+
+### Acessando o Nimbus:
+```bash
+docker exec -it nimbus /bin/bash
+```
+
+### Criando pasta para colar os códigos:
+```bash
+mkdir examples/trab-fppd
+cd examples/trab-fppd
+```
+
+### Copie e cole os códigos:
+```bash
+vim topologyMain.java
+vim spout.java
+```
+
+
+docker cp topologyMain.java nimbus:/apache-storm-2.5.0/examples/trab-fppd
+docker cp spout.java nimbus:/apache-storm-2.5.0/examples/trab-fppd
+docker cp boult.java nimbus:/apache-storm-2.5.0/examples/trab-fppd
+
+
 
