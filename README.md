@@ -1,5 +1,10 @@
 # Testando Storm UI do Apache Storm
 
+## Vídeo Explicativo
+
+Confira este [vídeo explicativo sobre o Apache Storm](https://1drv.ms/v/s!Au3PJaitvDlYhe4qNx3JW6AMfl0r-w?e=3fyvMg)
+
+
 ## OBS: Necessário ter o docker para seguir com os proximos passos
 ```bash
 apt install docker
