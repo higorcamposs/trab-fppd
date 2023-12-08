@@ -46,4 +46,5 @@ SEU_IP:8080
 - Supervisor Summary
 - Topology Summary
 
+### Não há topologia e todos os slots dos supervisores estão disponiveis, então ainda não está em execução!
 
