@@ -50,27 +50,51 @@ SEU_IP:8080
 
 # Criando tarefas no Storm Cluster
 
+### Criando os códigos em java, que estão aqui no repo:
+```bash
+vim TopologyMain.java
+vim Spout.java
+vim Bolt.java
+```
+Crie fora do docker!
+
+### Crie uma pasta no Nimbus para armazenar os códigos:
+```bash
+docker exec nimbus mkdir -p /apache-storm-2.5.0/examples/trab-fppd
+```
+
+### Copie os códigos criados para dentro do Nimbus:
+```bash
+docker cp TopologyMain.java nimbus:/apache-storm-2.5.0/examples/trab-fppd
+docker cp Spout.java nimbus:/apache-storm-2.5.0/examples/trab-fppd
+docker cp Boult.java nimbus:/apache-storm-2.5.0/examples/trab-fppd
+```
+
 ### Acessando o Nimbus:
 ```bash
 docker exec -it nimbus /bin/bash
 ```
 
-### Criando pasta para colar os códigos:
+### Instalando dependencias JAVA:
 ```bash
-mkdir examples/trab-fppd
-cd examples/trab-fppd
+apt-get update
+apt-get install default-jdk
 ```
 
-### Copie e cole os códigos:
+### Acesse o diretorio onde estão os arquivos:
 ```bash
-vim topologyMain.java
-vim spout.java
+cd /apache-storm-2.5.0/examples/trab-fppd
+```
+- Para listar os arquivos e conferir se estão lá: "ls"
+
+### Execute: 
+```bash
+javac -cp "/apache-storm-2.5.0/lib/*" TopologyMain.java Spout.java Bolt.java
+jar cf myTopology.jar *.class
+storm jar myTopology.jar TopologyMain
 ```
 
-
-docker cp topologyMain.java nimbus:/apache-storm-2.5.0/examples/trab-fppd
-docker cp spout.java nimbus:/apache-storm-2.5.0/examples/trab-fppd
-docker cp boult.java nimbus:/apache-storm-2.5.0/examples/trab-fppd
-
-
-
+### Ao finalizar, verifique se contém essa linha no final do log: 
+```bash
+... [main] INFO  o.a.s.StormSubmitter - Finished submitting topology: Topology
+```
