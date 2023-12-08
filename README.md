@@ -13,4 +13,12 @@ cd /home/docker
 vi docker-compose.yml
 ```
 
+### Iniciando o docker
+```bash
+docker-compose up
+```
 
+### Confira o status do docker
+```bash
+docker ps
+```
