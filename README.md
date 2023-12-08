@@ -4,6 +4,7 @@
 ```bash
 apt install docker
 apt install docker.io
+apt install docker-compose
 ```
 
 ### Execute os comandos abaixo: 
