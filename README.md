@@ -15,7 +15,6 @@ docker pull higorcamposs/trab-fppd-zookeeper:latest
 ### Após isso, você irá criar o arquivo docker-compose.yml
 Sugestão: Na sua pasta docker: adicione o arquivo docker-compose.yml, que está aqui no repositório. 
 ```bash
-mkdir /home/docker
 cd /home/docker
 vi docker-compose.yml
 ```
