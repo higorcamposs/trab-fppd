@@ -1,12 +1,16 @@
 # Configurando em seu ambiente
-Execute os comandos abaixo: 
-Após isso, você irá criar o arquivo docker-compose.yml
+### Execute os comandos abaixo: 
+
 ```bash
 docker pull higorcamposs/trab-fppd-storm:latest
 docker pull higorcamposs/trab-fppd-zookeeper:latest
-
 ```
-#### docker-compose up -d
+### Após isso, você irá criar o arquivo docker-compose.yml
+Sugestão: Crie uma pasta e lá você adiciona o arquivo docker-compose.yml, que está aqui no repositório. 
+```bash
+mkdir /home/docker
+vi docker-compose.yml
+```
 
 ## docker-compose.yml
 ```bash
