@@ -1,4 +1,7 @@
 # Configurando em seu ambiente
+
+## OBS: Necessário ter o docker para seguir com os proximos passos
+
 ### Execute os comandos abaixo: 
 
 ```bash
