@@ -3,7 +3,10 @@ Execute: docker pull higorcamposs/trab-fppd-storm:latest
 Execute: docker pull higorcamposs/trab-fppd-zookeeper:latest
 
 Após isso, você irá criar o arquivo docker-compose.yml
-
+```python
+def greet():
+print("Hello, world!")
+```
 #### docker-compose up -d
 
 ## docker-compose.yml
