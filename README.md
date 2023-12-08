@@ -1,6 +1,10 @@
 # Configurando em seu ambiente
 
 ## OBS: Necessário ter o docker para seguir com os proximos passos
+```bash
+apt install docker
+apt install docker.io
+```
 
 ### Execute os comandos abaixo: 
 
